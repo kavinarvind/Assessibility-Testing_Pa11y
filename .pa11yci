@@ -1,0 +1,18 @@
+{
+    "default": {    
+        "timeout": 1000,
+        "page": {
+            "viewport": {
+                "width": 320,
+                "height": 480
+            }
+        }
+    },
+    "urls": [
+        {
+            "url": "https://github.com/rkavinarvind",
+            "standard": "WCAG2A"
+        },
+        "https://github.com/rkavinarvind/Assessibility-Testing-/new/master"
+    ]
+}
