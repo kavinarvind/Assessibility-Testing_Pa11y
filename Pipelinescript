@@ -1,5 +1,0 @@
-node{
-stage ' Run Assessibility check'
-sh 'pa11y --reporter csv https://example.com > errors.csv'
-sh 'pa11y-ci --json '
-}
