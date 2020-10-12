@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8"/>
+	<title>Accessibility Report For "https://github.com/kavinarvind" (Sun Oct 11 2020 20:55:35 GMT-0500 (Central Daylight Time))</title>
+
+	<style>
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			background-color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 22px;
+			color: #333;
+		}
+		li {
+			margin-bottom: 15px;
+		}
+		h1, h2, p, pre, ul {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		h1 {
+			margin-bottom: 10px;
+			font-size: 24px;
+			line-height: 24px;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		pre {
+			white-space: pre-wrap;
+			overflow: auto;
+		}
+
+		.page {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 25px;
+		}
+
+		.counts {
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		.count {
+			display: inline-block;
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+
+		.clean-list {
+			margin-left: 0;
+			padding-left: 0;
+			list-style: none;
+		}
+		.results-list {
+			margin-top: 30px;
+		}
+
+		.result {
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+		.error {
+			background-color: #fdd;
+			border-color: #ff9696;
+		}
+		.warning {
+			background-color: #ffd;
+			border-color: #e7c12b;
+		}
+		.notice {
+			background-color: #eef4ff;
+			border-color: #b6d0ff;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="page">
+
+		<h1>Accessibility Report For "https://github.com/kavinarvind"</h1>
+		<p>Generated at: Sun Oct 11 2020 20:55:35 GMT-0500 (Central Daylight Time)</p>
+
+		<p class="counts">
+			<span class="count error">3 errors</span>
+			<span class="count warning">0 warnings</span>
+			<span class="count notice">0 notices</span>
+		</p>
+
+		<ul class="clean-list results-list">
+			<li class="result error">
+				<h2>Error: This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute &quot;submit&quot; or &quot;image&quot;, or BUTTON elements with type &quot;submit&quot; or omitted/invalid.</h2>
+				<p>WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2</p>
+				<pre>&lt;form class=&quot;js-site-search-form&quot; role=&quot;search&quot; aria-label=&quot;Site&quot; data-scope-type=&quot;User&quot; data-scope-id=&quot;61953863&quot; data-scoped-search-url=&quot;/users/kavinarvind/search&quot; data-unscoped-search-url=&quot;/search&quot; action=&quot;/users/kavinarvind/search&quot; accept-charset=... (select with "html &gt; body &gt; div:nth-child(1) &gt; header &gt; div &gt; div:nth-child(2) &gt; div:nth-child(3) &gt; div &gt; div &gt; div &gt; form")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element has role of &quot;button&quot; but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.</h2>
+				<p>WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Summary.Name</p>
+				<pre>&lt;summary role=&quot;button&quot; type=&quot;button&quot; class=&quot;btn &quot;&gt;
+    &lt;span class=&quot;px-2 link-gra...&lt;/summary&gt; (select with "#blob-more-options-details &gt; summary")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.21:1. Recommendation:  change background to #138934.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail</p>
+				<pre>&lt;a class=&quot;btn btn-primary&quot; data-ga-click=&quot;Sign up, click to sign up for account, text:Sign up&quot; data-hydro-click=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;authentication.click&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;location_in_page&amp;quot;:&amp;quot;sign up prompt&amp;quot;,&amp;qu... (select with "#js-pjax-container &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; div:nth-child(2) &gt; signup-prompt &gt; div &gt; div &gt; a")</pre>
+			</li>
+		</ul>
+
+	</div>
+
+</body>
+</html>
