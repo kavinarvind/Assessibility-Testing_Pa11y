@@ -1,5 +1,5 @@
 {
-    "default": {    
+    "default": {
         "timeout": 1000,
         "page": {
             "viewport": {
@@ -9,11 +9,7 @@
         }
     },
     "urls": [
-        {
-            "url": "https://github.com/rkavinarvind",
-            "standard": "WCAG2A"
-        },
-        "https://github.com/rkavinarvind/Assessibility-Testing-/new/master"
-        "https://github.com"
+        "https://github.com/",
+        "https://github.com/kavinarvind"
     ]
 }
