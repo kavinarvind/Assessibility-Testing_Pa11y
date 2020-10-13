@@ -1,5 +1,7 @@
 {
     "default": {
+        "standard": "WCAG2AAA",
+        "runner": "axe",
         "timeout": 1000,
         "page": {
             "viewport": {
