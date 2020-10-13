@@ -11,7 +11,15 @@
         }
     },
     "urls": [
-        "https://github.com/",
-        "https://github.com/kavinarvind"
+        "https://www.bluecrossnc.com",
+        "https://www.bluecrossnc.com/members",
+        "https://medicare.bluecrossnc.com/medicare",
+        "https://www.bluecrossnc.com/employer-services",
+        "https://www.bluecrossnc.com/provider-home",
+ 	"https://www.bluecrossnc.com/agent-login",
+	"https://www.bluecrossnc.com/contact-us",
+	"https://www.bluecrossnc.com/find-a-doctor-or-facility",
+	"https://www.bluecrossnc.com/shop-plans",
+	"https://www.bcbsnc.com/assets/shopper/public/quote/index.htm#/"
     ]
 }
