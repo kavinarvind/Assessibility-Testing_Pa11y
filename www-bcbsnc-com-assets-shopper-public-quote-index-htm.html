@@ -3,7 +3,7 @@
 <head>
 
 	<meta charset="utf-8"/>
-	<title>Accessibility Report For "https://www.bcbsnc.com/assets/shopper/public/quote/index.htm#/" (Tue Oct 13 2020 00:47:29 GMT-0500 (Central Daylight Time))</title>
+	<title>Accessibility Report For "https://www.bcbsnc.com/assets/shopper/public/quote/index.htm#/" (Sat Dec 12 2020 02:40:17 GMT-0600 (Central Standard Time))</title>
 
 	<style>
 
@@ -88,10 +88,10 @@
 	<div class="page">
 
 		<h1>Accessibility Report For "https://www.bcbsnc.com/assets/shopper/public/quote/index.htm#/"</h1>
-		<p>Generated at: Tue Oct 13 2020 00:47:29 GMT-0500 (Central Daylight Time)</p>
+		<p>Generated at: Sat Dec 12 2020 02:40:17 GMT-0600 (Central Standard Time)</p>
 
 		<p class="counts">
-			<span class="count error">31 errors</span>
+			<span class="count error">32 errors</span>
 			<span class="count warning">0 warnings</span>
 			<span class="count notice">0 notices</span>
 		</p>
@@ -143,14 +143,16 @@
 				<pre>&lt;input type=&quot;email&quot; name=&quot;applicantEMail&quot; placeholder=&quot;Email Address&quot; data-ng-model=&quot;applicant.email&quot; required=&quot;&quot; class=&quot;ng-pristine ng-invalid ng-invalid-required ng-valid-email&quot;&gt; (select with "#emailQuote &gt; form &gt; div &gt; input")</pre>
 			</li>
 			<li class="result error">
-				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.61:1. Recommendation:  change text colour to #707070.</h2>
+				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.37:1. Recommendation:  change background to #fff7db.</h2>
 				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail</p>
-				<pre>&lt;span class=&quot;muted&quot;&gt;Format: mm/dd/yyyy&lt;/span&gt; (select with "#rate-quote &gt; div &gt; form &gt; div:nth-child(2) &gt; div:nth-child(2) &gt; div &gt; div &gt; span")</pre>
+				<pre>&lt;p class=&quot;alert&quot; style=&quot;background-color: ##fcf8e3; border-color: #faebcc; color: #8a6d3b&quot;&gt;
+                We&#39;ll be doing...&lt;/p&gt; (select with "#msgArea &gt; p")</pre>
 			</li>
 			<li class="result error">
-				<h2>Error: Duplicate id attribute value &quot;dob-spouse&quot; found on the web page.</h2>
-				<p>WCAG2AA.Principle4.Guideline4_1.4_1_1.F77</p>
-				<pre>&lt;input type=&quot;text&quot; id=&quot;dob-spouse&quot; name=&quot;spouse_dob&quot; class=&quot;input-medium ng-pristine ng-valid ng-valid-required&quot; title=&quot;Spouse Date of Birth mm/dd/yyyy&quot; onkeyup=&quot;formatDateofBirth(event)&quot; aria-label=&quot;Spouse Date of Birth (mm/dd/yyyy)&quot; data-ng-model=&quot;... (select with "#dob-spouse")</pre>
+				<h2>Error: This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute &quot;submit&quot; or &quot;image&quot;, or BUTTON elements with type &quot;submit&quot; or omitted/invalid.</h2>
+				<p>WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2</p>
+				<pre>&lt;form name=&quot;main&quot; class=&quot;form-vertical ng-pristine ng-valid&quot;&gt;
+			&lt;div class=&quot;control-group&quot;&gt;...&lt;/form&gt; (select with "#rate-quote &gt; div &gt; div:nth-child(4) &gt; form")</pre>
 			</li>
 			<li class="result error">
 				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.33:1. Recommendation:  change text colour to #0070aa.</h2>
@@ -165,12 +167,17 @@
 			<li class="result error">
 				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.33:1. Recommendation:  change text colour to #0070aa.</h2>
 				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail</p>
-				<pre>&lt;a target=&quot;_self&quot; href=&quot;https://www.healthcare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt; (select with "#accessibility-and-non-discrimination &gt; div &gt; p:nth-child(2) &gt; a:nth-child(5)")</pre>
+				<pre>&lt;a target=&quot;_self&quot; href=&quot;https://www.healthcare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt; (select with "#accessibility-and-non-discrimination &gt; div &gt; p:nth-child(2) &gt; a:nth-child(4)")</pre>
 			</li>
 			<li class="result error">
 				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.33:1. Recommendation:  change text colour to #0070aa.</h2>
 				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail</p>
-				<pre>&lt;a target=&quot;_self&quot; href=&quot;https://www.healthcare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt; (select with "#accessibility-and-non-discrimination &gt; div &gt; p:nth-child(2) &gt; a:nth-child(7)")</pre>
+				<pre>&lt;a target=&quot;_self&quot; href=&quot;https://www.healthcare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt; (select with "#accessibility-and-non-discrimination &gt; div &gt; p:nth-child(2) &gt; a:nth-child(6)")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.33:1. Recommendation:  change text colour to #0070aa.</h2>
+				<p>WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail</p>
+				<pre>&lt;a target=&quot;_self&quot; href=&quot;https://www.healthcare.gov/&quot;&gt;HealthCare.gov&lt;/a&gt; (select with "#accessibility-and-non-discrimination &gt; div &gt; p:nth-child(2) &gt; a:nth-child(8)")</pre>
 			</li>
 			<li class="result error">
 				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.53:1. Recommendation:  change text colour to #007eb1.</h2>
